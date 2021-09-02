@@ -1,0 +1,33 @@
+img{
+	padding: 100px 50px;
+}
+form{
+	width: 100%;
+	height: 20vh;
+	text-align: center;
+}
+
+input{
+	margin-top: 16px;
+	width: 100%;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid lightgray;
+	position: relative;
+}
+::placeholder{
+	position: absolute;
+	top: 0;
+}
+button{
+	padding: 15px 100px;
+	margin: 30px;
+	border-radius: 50px;
+	outline: none;
+	border: 2px solid black;
+	background-color: transparent;
+	font-size: 20px;
+}
+input:focus ~ button{
+	background-color: blue;
+}
